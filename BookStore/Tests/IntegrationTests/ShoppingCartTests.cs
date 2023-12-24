@@ -1,11 +1,10 @@
 using System.Net.Http.Json;
-using BLL.CommandHandlers;
-using BLL.Dtos;
+using BookStore.Api.Models;
+using Bookstore.Application.CommandHandlers;
+using Bookstore.Application.DTOs;
 using FluentAssertions;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using PL.WebApi.Models;
-using Tests.IntegrationTests;
 using Xunit;
 
 namespace Tests.IntegrationTests;

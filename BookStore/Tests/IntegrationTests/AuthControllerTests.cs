@@ -1,6 +1,6 @@
 using System.Net.Http.Json;
-using BLL.CommandHandlers;
-using BLL.Models;
+using Bookstore.Application.CommandHandlers;
+using Bookstore.Application.Models;
 using FluentAssertions;
 using Xunit;
 

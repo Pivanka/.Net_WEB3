@@ -1,5 +1,6 @@
-using DAL.Context;
-using DAL.Models;
+using BookStore.Domain.Entities;
+using BookStore.Domain.Shared;
+using BookStore.Infrastructure.Data;
 
 namespace Tests.IntegrationTests;
 

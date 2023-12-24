@@ -1,9 +1,9 @@
 using System.Net.Http.Json;
-using BLL.Dtos;
-using BLL.Models;
-using BLL.QueryHandlers;
+using BookStore.Api.Models;
+using Bookstore.Application.DTOs;
+using Bookstore.Application.Models;
+using Bookstore.Application.QueryHandlers;
 using FluentAssertions;
-using PL.WebApi.Models;
 using Xunit;
 
 namespace Tests.IntegrationTests;

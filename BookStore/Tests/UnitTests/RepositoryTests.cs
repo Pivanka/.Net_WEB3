@@ -1,5 +1,6 @@
-using DAL.Models;
-using DAL.Repositories;
+using BookStore.Domain.Entities;
+using BookStore.Domain.Shared;
+using BookStore.Infrastructure.Data;
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Xunit;

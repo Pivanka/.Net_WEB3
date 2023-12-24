@@ -1,5 +1,5 @@
 using System.Security.Claims;
-using DAL.Context;
+using BookStore.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
